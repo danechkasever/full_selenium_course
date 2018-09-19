@@ -1,1 +1,1 @@
-# full_selenium_course course
+# full_selenium_course
