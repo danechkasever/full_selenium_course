@@ -1,0 +1,3 @@
+rootProject.name = 'selenium_course_first_test'
+include 'first_test'
+
