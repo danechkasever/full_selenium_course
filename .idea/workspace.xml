@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8461415d-0582-4097-9b1b-367c51529822" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/first/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/first/MyFirstTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,8 +63,8 @@
       <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/first/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="41">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -395,7 +394,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-71" />
     <option name="y" value="391" />
     <option name="width" value="1314" />
@@ -637,12 +636,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 37m 02s.xml">
-      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 41m 49s.xml">
-      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 44m 24s.xml">
       <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
     </history-entry>
@@ -667,9 +660,15 @@
     <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 53m 23s.xml">
       <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 54m 57s.xml">
+      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 58m 50s.xml">
+      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -750,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/first/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="41">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
