@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8461415d-0582-4097-9b1b-367c51529822" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -73,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SevenTaskTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SevenTaskTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="61" />
+            <state relative-caret-position="1071">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EightTaskTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EightTaskTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/first/EightTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="595">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -421,9 +420,9 @@
         <option value="$PROJECT_DIR$/first_test/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/first/MyFirstTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/EightTaskTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/first/EightTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java" />
       </list>
     </option>
   </component>
@@ -506,7 +505,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EightTaskTest.one">
+  <component name="RunManager" selected="JUnit.SevenTaskTest.one">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -672,8 +671,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EightTaskTest.one" />
         <item itemvalue="JUnit.SevenTaskTest.one" />
+        <item itemvalue="JUnit.EightTaskTest.one" />
         <item itemvalue="JUnit.MyFirstTest.loginFFold" />
         <item itemvalue="JUnit.MyFirstTest.loginIE" />
         <item itemvalue="JUnit.MyFirstTest.loginFF" />
@@ -697,40 +696,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SevenTaskTest_one - 2018.09.30 at 18h 04m 43s.xml">
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 23h 43m 32s.xml">
       <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SevenTaskTest_one - 2018.09.30 at 18h 22m 01s.xml">
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 23h 47m 37s.xml">
       <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EightTaskTest_one - 2018.09.30 at 20h 37m 04s.xml">
-      <configuration name="EightTaskTest.one" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 23h 48m 31s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EightTaskTest_one - 2018.09.30 at 21h 09m 52s.xml">
-      <configuration name="EightTaskTest.one" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 23h 50m 06s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EightTaskTest_one - 2018.09.30 at 21h 18m 27s.xml">
-      <configuration name="EightTaskTest.one" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 23h 50m 37s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EightTaskTest_one - 2018.09.30 at 21h 18m 53s.xml">
-      <configuration name="EightTaskTest.one" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 23h 52m 47s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EightTaskTest_one - 2018.09.30 at 21h 19m 24s.xml">
-      <configuration name="EightTaskTest.one" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 23h 54m 37s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EightTaskTest_one - 2018.09.30 at 21h 20m 34s.xml">
-      <configuration name="EightTaskTest.one" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 23h 56m 24s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EightTaskTest_one - 2018.09.30 at 21h 20m 51s.xml">
-      <configuration name="EightTaskTest.one" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.10.01 at 00h 15m 45s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EightTaskTest_one - 2018.09.30 at 21h 21m 52s.xml">
-      <configuration name="EightTaskTest.one" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.10.01 at 00h 17m 59s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -741,13 +739,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4384018" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22197558" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8181818" visible="true" weight="0.14392324" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81883025" visible="true" weight="0.14498934" />
       <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.052238807" />
-      <window_info id="Structure" order="1" sideWeight="0.18181819" side_tool="true" visible="true" weight="0.14392324" />
+      <window_info id="Structure" order="1" sideWeight="0.18116976" side_tool="true" visible="true" weight="0.14498934" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -767,14 +765,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/first/EightTaskTest.java</url>
-          <line>26</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -847,20 +838,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/first/EightTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="61" />
+        <state relative-caret-position="595">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/first/EightTaskTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="1071">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
