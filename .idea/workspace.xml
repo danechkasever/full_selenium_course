@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8461415d-0582-4097-9b1b-367c51529822" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/first/MyFirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/first/MyFirstTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/first/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/first/MyFirstTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,17 +57,29 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/first/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="87">
+              <caret line="70" column="14" selection-start-line="69" selection-start-column="7" selection-end-line="73" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SevenTaskTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -391,22 +406,23 @@
         <option value="$PROJECT_DIR$/first_test/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/first/MyFirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-71" />
-    <option name="y" value="391" />
-    <option name="width" value="1314" />
-    <option name="height" value="935" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -458,7 +474,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -473,55 +489,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyFirstTest.loginCorrect">
+  <component name="RunManager" selected="JUnit.SevenTaskTest.one">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="MyFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium_course_first_test_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="first.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="first" />
-      <option name="MAIN_CLASS_NAME" value="first.MyFirstTest" />
-      <option name="METHOD_NAME" value="loginCorrect" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MyFirstTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium_course_first_test_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="first.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="first" />
-      <option name="MAIN_CLASS_NAME" value="first.MyFirstTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="MyFirstTest.loginCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_course_first_test_test" />
@@ -546,7 +516,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyFirstTest.loginIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyFirstTest.loginFF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_course_first_test_test" />
       <extension name="coverage">
         <pattern>
@@ -558,7 +528,76 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="first" />
       <option name="MAIN_CLASS_NAME" value="first.MyFirstTest" />
-      <option name="METHOD_NAME" value="loginIncorrect" />
+      <option name="METHOD_NAME" value="loginFF" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyFirstTest.loginFFold" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_course_first_test_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="first" />
+      <option name="MAIN_CLASS_NAME" value="first.MyFirstTest" />
+      <option name="METHOD_NAME" value="loginFFold" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyFirstTest.loginIE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_course_first_test_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="first" />
+      <option name="MAIN_CLASS_NAME" value="first.MyFirstTest" />
+      <option name="METHOD_NAME" value="loginIE" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SevenTaskTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_course_first_test_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="first" />
+      <option name="MAIN_CLASS_NAME" value="first.SevenTaskTest" />
+      <option name="METHOD_NAME" value="one" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -608,19 +647,24 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyFirstTest.firstTest" />
-      <item itemvalue="JUnit.MyFirstTest.loginIncorrect" />
       <item itemvalue="JUnit.MyFirstTest.loginCorrect" />
-      <item itemvalue="JUnit.MyFirstTest" />
+      <item itemvalue="JUnit.MyFirstTest.loginFF" />
+      <item itemvalue="JUnit.MyFirstTest.loginIE" />
+      <item itemvalue="JUnit.MyFirstTest.loginFFold" />
+      <item itemvalue="JUnit.SevenTaskTest.one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SevenTaskTest.one" />
+        <item itemvalue="JUnit.MyFirstTest.loginFFold" />
+        <item itemvalue="JUnit.MyFirstTest.loginIE" />
+        <item itemvalue="JUnit.MyFirstTest.loginFF" />
         <item itemvalue="JUnit.MyFirstTest.loginCorrect" />
-        <item itemvalue="JUnit.MyFirstTest.loginIncorrect" />
-        <item itemvalue="JUnit.MyFirstTest" />
-        <item itemvalue="JUnit.MyFirstTest.firstTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -636,39 +680,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 44m 24s.xml">
-      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.29 at 03h 04m 33s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 46m 43s.xml">
-      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.29 at 03h 06m 40s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 47m 32s.xml">
-      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 16h 31m 25s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest - 2018.09.20 at 22h 48m 39s.xml">
-      <configuration name="MyFirstTest" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 17h 43m 47s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_loginIncorrect - 2018.09.20 at 22h 49m 39s.xml">
-      <configuration name="MyFirstTest.loginIncorrect" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 17h 46m 56s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_loginIncorrect - 2018.09.20 at 22h 51m 30s.xml">
-      <configuration name="MyFirstTest.loginIncorrect" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 17h 48m 44s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 52m 26s.xml">
-      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 17h 53m 21s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 53m 23s.xml">
-      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 17h 54m 47s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 54m 57s.xml">
-      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 18h 04m 43s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFirstTest_loginCorrect - 2018.09.20 at 22h 58m 50s.xml">
-      <configuration name="MyFirstTest.loginCorrect" configurationId="JUnit" />
+    <history-entry file="SevenTaskTest_one - 2018.09.30 at 18h 22m 01s.xml">
+      <configuration name="SevenTaskTest.one" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -679,19 +723,19 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44950056" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22419533" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8205645" visible="true" weight="0.14232409" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.16311301" />
-      <window_info id="Structure" order="1" sideWeight="0.17943548" side_tool="true" visible="true" weight="0.14232409" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81831187" visible="true" weight="0.14392324" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.052238807" />
+      <window_info id="Structure" order="1" sideWeight="0.18168813" side_tool="true" visible="true" weight="0.14392324" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -705,6 +749,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/first/MyFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -742,15 +803,25 @@
     <entry file="file://$PROJECT_DIR$/first_test/build.gradle" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/first/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="87">
+          <caret line="70" column="14" selection-start-line="69" selection-start-column="7" selection-end-line="73" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
