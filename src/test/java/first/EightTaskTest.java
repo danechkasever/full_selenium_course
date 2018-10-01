@@ -28,7 +28,7 @@ public class EightTaskTest {
     @Test
     public void  eight(){
         driverchrome.get("http://localhost/litecart/");
-        List<WebElement> elements = driverchrome.findElements(By.cssSelector("div#box-most-popular .listing-wrapper li"));
+        List<WebElement> elements = driverchrome.findElements(By.cssSelector("div li.product"));
         for (int i = 0; i < elements.size(); i++) {
             Integer count = elements.get(i).findElements(By.cssSelector("div.sticker")).size();
             Asserts.check(count==1, "More then one sticker!");
