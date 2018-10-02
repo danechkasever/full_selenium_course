@@ -71,7 +71,7 @@ public class NineTaskTest {
 
 
         }
-        
+
     }
 
     @Test
@@ -93,9 +93,9 @@ public class NineTaskTest {
             Integer size2 = driverchrome.findElements(By.cssSelector("#table-zones select[name*=zone_code]")).size();
             String name3 = "";
             for (int j = 0; j < size2 - 1; j++) {
-                List<WebElement> row1 = driverchrome.findElements(By.cssSelector("#table-zones select[name*=zone_code]"));
+                List<WebElement> row1 = driverchrome.findElements(By.cssSelector("select[name*=zone_code] option[selected=selected]"));
                 WebElement element1 = row1.get(j);
-                String name4 = element1.getAttribute("value");
+                String name4 = element1.getAttribute("textContent");
                 boolean comparing1;
                 if (name3.compareTo(name4) > 0) {
                     comparing1 = false;

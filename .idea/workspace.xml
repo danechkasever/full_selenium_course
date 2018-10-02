@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8461415d-0582-4097-9b1b-367c51529822" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/first/NineTaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/first/NineTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/first/NineTaskTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -100,8 +100,8 @@
       <file leaf-file-name="NineTaskTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/first/NineTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+            <state relative-caret-position="309">
+              <caret line="95" column="132" selection-start-line="95" selection-start-column="132" selection-end-line="95" selection-end-column="132" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -441,10 +441,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2067" />
-    <option name="y" value="80" />
-    <option name="width" value="1445" />
-    <option name="height" value="935" />
+    <option name="x" value="1844" />
+    <option name="y" value="234" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -710,9 +710,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NineTaskTest_one - 2018.10.02 at 10h 49m 41s.xml">
-      <configuration name="NineTaskTest.one" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NineTaskTest_one - 2018.10.02 at 10h 51m 03s.xml">
       <configuration name="NineTaskTest.one" configurationId="JUnit" />
     </history-entry>
@@ -740,9 +737,12 @@
     <history-entry file="NineTaskTest_two - 2018.10.02 at 11h 33m 01s.xml">
       <configuration name="NineTaskTest.two" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NineTaskTest_two - 2018.10.02 at 11h 38m 13s.xml">
+      <configuration name="NineTaskTest.two" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2067" y="80" width="1445" height="935" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -751,16 +751,16 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24259928" side_tool="true" visible="true" weight="0.041025642" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24200426" side_tool="true" visible="true" weight="0.29855716" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75740075" visible="true" weight="0.041025642" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7579957" visible="true" weight="0.29855716" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8181818" visible="true" weight="0.1963899" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.07075812" />
-      <window_info id="Structure" order="1" sideWeight="0.18181819" side_tool="true" visible="true" weight="0.1963899" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.818038" visible="true" weight="0.14498934" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.052238807" />
+      <window_info id="Structure" order="1" sideWeight="0.18196203" side_tool="true" visible="true" weight="0.14498934" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -882,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/first/NineTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        <state relative-caret-position="309">
+          <caret line="95" column="132" selection-start-line="95" selection-start-column="132" selection-end-line="95" selection-end-column="132" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
