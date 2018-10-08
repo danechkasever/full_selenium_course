@@ -26,9 +26,10 @@ public class EightTaskTest {
     }
 
     @Test
-    public void  eight(){
+    public void  eight() throws InterruptedException {
         driverchrome.get("http://localhost/litecart/");
         List<WebElement> elements = driverchrome.findElements(By.cssSelector("div li.product"));
+        Thread.sleep(4000);
         for (int i = 0; i < elements.size(); i++) {
             Integer count = elements.get(i).findElements(By.cssSelector("div.sticker")).size();
             Asserts.check(count==1, "More then one sticker!");

@@ -31,7 +31,6 @@ public class TenTaskTest {
     }
 
     private boolean red (String r, String g, String b){
-        boolean pc;
         if (r.equals(g) && g.equals(b)) {
             return true;
         } else {
@@ -129,10 +128,20 @@ public class TenTaskTest {
         Asserts.check(font(pricesizefontgoodsplit[0],pricesalefontgoodsplit[0]), "sale more small then price");
     }
 
+    public String convertToRelative(String home) {
+        return new File(home).getAbsolutePath();
+    }
+
 
 
     @Before
     public  void setUp() {
+
+    }
+    @Test
+    public void  tenTestChrome111(){
+        System.out.println("Abs path: " + convertToRelative("rrr.txt"));
+        driverchrome.get("http://localhost/litecart/");
 
     }
 
@@ -160,7 +169,7 @@ public class TenTaskTest {
 
     @After
     public void finish() {
-       driverchrome.quit();
-       driverchrome = null;
+       //driverchrome.quit();
+      // driverchrome = null;
     }
 }
