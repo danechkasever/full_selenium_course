@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8461415d-0582-4097-9b1b-367c51529822" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/first/ElevenTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/first/TwelveTaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/first/TenTaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/first/TenTaskTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/first/EightTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/first/EightTaskTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/first/TenTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/first/TenTaskTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -120,14 +117,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElevenTaskTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ElevenTaskTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/first/ElevenTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="60" column="92" selection-start-line="60" selection-start-column="92" selection-end-line="60" selection-end-column="92" />
+            <state relative-caret-position="276">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="48" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SevenTaskTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -135,8 +143,8 @@
       <file leaf-file-name="EightTaskTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/first/EightTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            <state relative-caret-position="221">
+              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,29 +152,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReflectiveCallable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <file leaf-file-name="NineTaskTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/first/NineTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="340">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Select.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/com/sun/org/apache/bcel/internal/generic/Select.java">
+      <file leaf-file-name="TenTaskTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/first/TenTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+            <state relative-caret-position="261">
+              <caret line="130" column="40" selection-start-line="130" selection-start-column="4" selection-end-line="132" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5532#5533#0" expanded="true" />
+                <element signature="e#5587#5588#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomString.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.15/a8f95953d78effdd8eca80e92c5b62f648b4a1f5/byte-buddy-1.8.15-sources.jar!/net/bytebuddy/utility/RandomString.java">
+      <file leaf-file-name="TwelveTaskTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/first/TwelveTaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1071">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="237">
+              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -502,6 +525,7 @@
         <option value="$PROJECT_DIR$/src/test/java/first/TenTaskTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/first/EightTaskTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/first/ElevenTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/first/TwelveTaskTest.java" />
       </list>
     </option>
   </component>
@@ -584,7 +608,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ElevenTaskTest.one">
+  <component name="RunManager" selected="JUnit.TwelveTaskTest.twelve">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -657,7 +681,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TenTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwelveTaskTest.eight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_course_first_test_test" />
       <extension name="coverage">
         <pattern>
@@ -668,9 +692,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="first" />
-      <option name="MAIN_CLASS_NAME" value="first.TenTaskTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="first.TwelveTaskTest" />
+      <option name="METHOD_NAME" value="eight" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -680,7 +704,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TenTaskTest.tenTestChrome111" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwelveTaskTest.twelve" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium_course_first_test_test" />
       <extension name="coverage">
         <pattern>
@@ -691,8 +715,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="first" />
-      <option name="MAIN_CLASS_NAME" value="first.TenTaskTest" />
-      <option name="METHOD_NAME" value="tenTestChrome111" />
+      <option name="MAIN_CLASS_NAME" value="first.TwelveTaskTest" />
+      <option name="METHOD_NAME" value="twelve" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -742,19 +766,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TenTaskTest" />
-      <item itemvalue="JUnit.TenTaskTest.tenTestChrome111" />
       <item itemvalue="JUnit.ElevenTaskTest.one" />
       <item itemvalue="JUnit.ElevenTaskTest" />
       <item itemvalue="JUnit.EightTaskTest.eight" />
+      <item itemvalue="JUnit.TwelveTaskTest.eight" />
+      <item itemvalue="JUnit.TwelveTaskTest.twelve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwelveTaskTest.twelve" />
+        <item itemvalue="JUnit.TwelveTaskTest.eight" />
         <item itemvalue="JUnit.ElevenTaskTest.one" />
         <item itemvalue="JUnit.EightTaskTest.eight" />
         <item itemvalue="JUnit.ElevenTaskTest" />
-        <item itemvalue="JUnit.TenTaskTest.tenTestChrome111" />
-        <item itemvalue="JUnit.TenTaskTest" />
       </list>
     </recent_temporary>
   </component>
@@ -775,35 +799,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ElevenTaskTest_one - 2018.10.08 at 19h 41m 14s.xml">
-      <configuration name="ElevenTaskTest.one" configurationId="JUnit" />
+    <history-entry file="TwelveTaskTest_twelve - 2018.10.08 at 22h 27m 35s.xml">
+      <configuration name="TwelveTaskTest.twelve" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElevenTaskTest - 2018.10.08 at 19h 43m 09s.xml">
-      <configuration name="ElevenTaskTest" configurationId="JUnit" />
+    <history-entry file="TwelveTaskTest_twelve - 2018.10.08 at 22h 31m 31s.xml">
+      <configuration name="TwelveTaskTest.twelve" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EightTaskTest_eight - 2018.10.08 at 19h 46m 23s.xml">
-      <configuration name="EightTaskTest.eight" configurationId="JUnit" />
+    <history-entry file="TwelveTaskTest_twelve - 2018.10.08 at 22h 33m 08s.xml">
+      <configuration name="TwelveTaskTest.twelve" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EightTaskTest_eight - 2018.10.08 at 19h 59m 10s.xml">
-      <configuration name="EightTaskTest.eight" configurationId="JUnit" />
+    <history-entry file="TwelveTaskTest_twelve - 2018.10.08 at 22h 34m 29s.xml">
+      <configuration name="TwelveTaskTest.twelve" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElevenTaskTest_one - 2018.10.08 at 19h 59m 34s.xml">
-      <configuration name="ElevenTaskTest.one" configurationId="JUnit" />
+    <history-entry file="TwelveTaskTest_twelve - 2018.10.08 at 22h 35m 17s.xml">
+      <configuration name="TwelveTaskTest.twelve" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElevenTaskTest_one - 2018.10.08 at 20h 02m 12s.xml">
-      <configuration name="ElevenTaskTest.one" configurationId="JUnit" />
+    <history-entry file="TwelveTaskTest_twelve - 2018.10.08 at 22h 35m 47s.xml">
+      <configuration name="TwelveTaskTest.twelve" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElevenTaskTest_one - 2018.10.08 at 20h 10m 08s.xml">
-      <configuration name="ElevenTaskTest.one" configurationId="JUnit" />
+    <history-entry file="TwelveTaskTest_twelve - 2018.10.08 at 22h 37m 59s.xml">
+      <configuration name="TwelveTaskTest.twelve" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElevenTaskTest_one - 2018.10.08 at 20h 10m 30s.xml">
-      <configuration name="ElevenTaskTest.one" configurationId="JUnit" />
+    <history-entry file="TwelveTaskTest_twelve - 2018.10.08 at 22h 38m 33s.xml">
+      <configuration name="TwelveTaskTest.twelve" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElevenTaskTest_one - 2018.10.08 at 20h 15m 08s.xml">
-      <configuration name="ElevenTaskTest.one" configurationId="JUnit" />
+    <history-entry file="TwelveTaskTest_twelve - 2018.10.08 at 22h 39m 26s.xml">
+      <configuration name="TwelveTaskTest.twelve" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElevenTaskTest_one - 2018.10.08 at 20h 19m 21s.xml">
-      <configuration name="ElevenTaskTest.one" configurationId="JUnit" />
+    <history-entry file="TwelveTaskTest_twelve - 2018.10.08 at 22h 40m 04s.xml">
+      <configuration name="TwelveTaskTest.twelve" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
@@ -821,21 +845,21 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4968017" weight="0.16648169" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49840087" weight="0.34628192" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49733475" weight="0.34628192" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24626866" side_tool="true" visible="true" weight="0.3773585" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24733475" side_tool="true" visible="true" weight="0.4017758" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75373137" visible="true" weight="0.3773585" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7526652" visible="true" weight="0.4017758" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4978678" weight="0.32963374" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978678" weight="0.22086571" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6613191" visible="true" weight="0.21375267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66048235" visible="true" weight="0.14392324" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.090618335" />
-      <window_info id="Structure" order="1" sideWeight="0.33868092" side_tool="true" visible="true" weight="0.21375267" />
+      <window_info id="Structure" order="1" sideWeight="0.33951762" side_tool="true" visible="true" weight="0.14392324" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -980,35 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/first/NineTaskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="115" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/first/TenTaskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5532#5533#0" expanded="true" />
-            <element signature="e#5587#5588#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1027,20 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1071">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/com/sun/org/apache/bcel/internal/generic/Select.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -1076,16 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/first/EightTaskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/first/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
@@ -1096,12 +1067,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/com/sun/org/apache/bcel/internal/generic/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/first/ElevenTaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="60" column="92" selection-start-line="60" selection-start-column="92" selection-end-line="60" selection-end-column="92" />
+        <state relative-caret-position="276">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="48" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/first/NineTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/first/TenTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="130" column="40" selection-start-line="130" selection-start-column="4" selection-end-line="132" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5532#5533#0" expanded="true" />
+            <element signature="e#5587#5588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/first/SevenTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/first/EightTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/first/TwelveTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
           </folding>
         </state>
       </provider>
