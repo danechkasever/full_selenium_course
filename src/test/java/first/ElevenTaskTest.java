@@ -18,6 +18,7 @@ public class ElevenTaskTest {
     private WebDriver driverchrome;
     private WebDriverWait wait;
 
+
     public static String generateString(int count) {
         return RandomString.make(count);
     }
