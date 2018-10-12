@@ -8,15 +8,33 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class ElevenTaskTest {
     private WebDriver driverchrome;
     private WebDriverWait wait;
+   /* public ExpectedCondition<Boolean> thereIsWindowOtherThan(Set<String> set) {
+        java.lang.Object[] oldwindows = set.toArray();
+
+        java.lang.Object[] newwindows = driverchrome.getWindowHandles().toArray();
+        for (int i = 0; i < newwindows.length; i++) {
+            for (int j = 0; j < oldwindows.length; j++) {
+                if (newwindows[i].toString().equals(oldwindows[j].toString())) {
+                    break;
+                } else if (j == oldwindows.length - 1) {
+                    // return true;
+                    return true;
+                }
+            }
+        }
+
+    }*/
 
 
     public static String generateString(int count) {

@@ -4,10 +4,12 @@ import net.bytebuddy.utility.RandomString;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -82,6 +84,12 @@ public class ThirteenTaskTest {
            count = driverchrome.findElements(By.cssSelector("div.viewport li")).size();
            System.out.println(count);
        }
+      Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setCapability("unexexpectedAlertBehaviour", "dismiss");
+        alert.dismiss();
+
     }
 
     @After
