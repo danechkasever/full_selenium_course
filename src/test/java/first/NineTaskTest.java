@@ -26,7 +26,7 @@ public class NineTaskTest {
     @Test
     public void one() throws InterruptedException {
 
-        driverchrome.get("http://localhost/litecart/admin/?app=countries&doc=countries");
+        driverchrome.get("http://10.0.0.197/litecart/admin/?app=countries&doc=countries");
         driverchrome.findElement(By.cssSelector("div#box-login input[name=username]")).sendKeys("admin");
         driverchrome.findElement(By.cssSelector("div#box-login input[name=password]")).sendKeys("admin");
         driverchrome.findElement(By.name("remember_me")).click();

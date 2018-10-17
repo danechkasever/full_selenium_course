@@ -47,7 +47,7 @@ public class TenTaskTest {
     }
 
     private void testMetod(){
-        driverchrome.get("http://localhost/litecart/");
+        driverchrome.get("http://10.0.0.197/litecart/");
         List<WebElement> elements = driverchrome.findElements(By.cssSelector("div #box-campaigns li"));
         WebElement good = elements.get(0);
         String name = good.findElement(By.cssSelector(".name")).getAttribute("textContent");

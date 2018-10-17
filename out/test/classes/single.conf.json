@@ -1,0 +1,13 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "daryashumakova1",
+  "key": "nYcZxNaN28sizMsA4x4N",
+
+  "capabilities": {
+    "browserstack.debug": true
+  },
+
+  "environments": [{
+    "browser": "chrome"
+  }]
+}
