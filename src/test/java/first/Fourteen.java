@@ -29,7 +29,7 @@ public class Fourteen {
     }
 
     @Test
-    public void  fourteen() {
+    public void  fourteen() throws InterruptedException {
         driverchrome.get("http://localhost/litecart/admin/?app=countries&doc=countries");
         driverchrome.findElement(By.cssSelector("div#box-login input[name=username]")).sendKeys("admin");
         driverchrome.findElement(By.cssSelector("div#box-login input[name=password]")).sendKeys("admin");
@@ -42,20 +42,25 @@ public class Fourteen {
         Integer count= driverchrome.findElements(By.cssSelector("a i[class*=fa-external-link]")).size();
         for (int i = 0; i < count; i++) {
             driverchrome.findElements(By.cssSelector("a i[class*=fa-external-link]")).get(i).click();
-            wait.until(ExpectedConditions.numberOfWindowsToBe(2));
             java.lang.Object[] setwindows = driverchrome.getWindowHandles().toArray();
-
-         for (int j = 0; j < setwindows.length; j++) {
+            for (int j = 0; j < setwindows.length; j++) {
                 if (setwindows[j].toString().equals(oldWindows.toString()) == false) {
                     idnewwindow = setwindows[j].toString();
                     driverchrome.switchTo().window(idnewwindow);
                     System.out.println("new window" + idnewwindow);
                     break;
-
                 }
             }
+            if (i!=3) {
+                wait.until(ExpectedConditions.visibilityOf(driverchrome.findElement(By.cssSelector("a.mw-wiki-logo"))));} else
+            {
+                wait.until(ExpectedConditions.visibilityOf(driverchrome.findElement(By.cssSelector("img.default-logo"))));
+            }
+
+
+
             driverchrome.close();
-            driverchrome.switchTo().window(oldWindows);
+           driverchrome.switchTo().window(oldWindows);
         }
 
     }
@@ -63,8 +68,8 @@ public class Fourteen {
 
     @After
     public void finish() {
-        driverchrome.quit();
-        driverchrome = null;
+       driverchrome.quit();
+      driverchrome = null;
 
     }
 

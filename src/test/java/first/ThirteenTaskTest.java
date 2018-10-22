@@ -4,21 +4,18 @@ import net.bytebuddy.utility.RandomString;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.List;
 
 public class ThirteenTaskTest {
     private WebDriver driverchrome;
     private WebDriverWait wait;
+    private java.net.Proxy proxy;
 
     public static String generateString(int count) {
         return RandomString.make(count);
@@ -50,6 +47,11 @@ public class ThirteenTaskTest {
     }
     @Before
     public  void setUp() {
+       // Proxy proxy = new Proxy();
+        //proxy.setHttpProxy("localhost:8888");
+       // DesiredCapabilities caps = new DesiredCapabilities();
+       // caps.setCapability("proxy", proxy);
+       // driverchrome = new ChromeDriver(caps);
         driverchrome = new ChromeDriver();
        wait = new WebDriverWait(driverchrome,12);
     }
@@ -58,13 +60,15 @@ public class ThirteenTaskTest {
         regestration();
         Integer qs=0;
         while (qs<3) {
-
             List<WebElement> listproducts = driverchrome.findElements(By.cssSelector("div#box-most-popular ul.listing-wrapper li"));
             listproducts.get(0).click();
+
             WebElement quantity = driverchrome.findElement(By.cssSelector("span.quantity"));
+
             Integer q = Integer.parseInt(quantity.getAttribute("textContent"));
             driverchrome.findElement(By.cssSelector("button[name=add_cart_product]")).click();
             qs = (q + 1);
+
             wait.until(ExpectedConditions.attributeToBe(quantity, "textContent", qs.toString()));
             quantity = driverchrome.findElement(By.cssSelector("span.quantity"));
             System.out.println(quantity.getAttribute("textContent"));
@@ -72,7 +76,6 @@ public class ThirteenTaskTest {
         }
         driverchrome.findElement(By.cssSelector("div#cart-wrapper .link")).click();
         Integer count = driverchrome.findElements(By.cssSelector("div.viewport li")).size();
-
         while (count>0) {
             List<WebElement> els = driverchrome.findElements(By.cssSelector("div.viewport li"));
             WebElement rem = els.get(0).findElement(By.cssSelector("button[name=remove_cart_item]"));
@@ -81,14 +84,9 @@ public class ThirteenTaskTest {
             List<WebElement> list = driverchrome.findElements(By.cssSelector("ul.shortcuts li"));
             if (list.size()>0) {wait.until(ExpectedConditions.stalenessOf(list.get(count-1)));}else
             {wait.until(ExpectedConditions.stalenessOf(els.get(count-1)));}
-           count = driverchrome.findElements(By.cssSelector("div.viewport li")).size();
-           System.out.println(count);
-       }
-      Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("unexexpectedAlertBehaviour", "dismiss");
-        alert.dismiss();
+            count = driverchrome.findElements(By.cssSelector("div.viewport li")).size();
+            System.out.println(count);
+        }
 
     }
 
